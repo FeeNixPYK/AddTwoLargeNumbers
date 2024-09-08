@@ -35,5 +35,19 @@ int main() {
         carry=sum/10;
         result += (sum%10)+'0';
     }
+    // add the carry if it is not zero
+    if (carry!=0){
+        result += carry+'0';
+    }
+    //get result length to print out the final result. -1 to skip the null character.
+    resultLength = (result.length()-1);
+
+    cout << "The sum of " << num1 << " and " << num2 << " is: ";
+    //reverse for loop to print the result
+
+    for (int i=resultLength; i>=0;i--){
+        cout << result[i] ;
+    }
+
     return 0;
 }
