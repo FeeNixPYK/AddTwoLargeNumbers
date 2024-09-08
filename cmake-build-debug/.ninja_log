@@ -1,0 +1,6 @@
+# ninja log v6
+473	595	1725826706425044937	Add_Large_Number	dad8f5c5ae0057e5
+4	267	1725826838794276110	CMakeFiles/Add_Large_Number.dir/test.cpp.o	d20c32c7a71de08d
+10	472	1725826705961783673	CMakeFiles/Add_Large_Number.dir/main.cpp.o	8be746c24308a571
+2	50	1725826989595747740	build.ninja	a8ec01eca3533a86
+5	102	1725826989608595316	Add_Large_Number	dad8f5c5ae0057e5

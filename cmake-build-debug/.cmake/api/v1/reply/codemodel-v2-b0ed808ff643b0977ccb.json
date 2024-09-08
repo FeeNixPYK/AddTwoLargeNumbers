@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Add_Large_Number",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Add_Large_Number::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Add_Large_Number-Debug-3fce8a00d8bc2437c87f.json",
+					"name" : "Add_Large_Number",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Add_Large_Number_Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Add_Large_Number_Test-Debug-1fc710b3f9b410dd2148.json",
+					"name" : "Add_Large_Number_Test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/feenix/Desktop/CSCI211/Add Large Number/cmake-build-debug",
+		"source" : "/Users/feenix/Desktop/CSCI211/Add Large Number"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
