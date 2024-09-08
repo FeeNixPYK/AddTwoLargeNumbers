@@ -10,7 +10,8 @@ void addzero(string &a,int b){
 int main() {
     //ask user to enter two numbers and store as strings.
     string num1, num2, result;
-    int length1, length2, lengthDiff, resultLength, carry;
+    int length1, length2, lengthDiff, resultLength;
+    int carry =0;
     cout << "Enter two numbers to add: " ;
     cin >> num1 >> num2;
 
@@ -30,10 +31,9 @@ int main() {
 
     //add the two strings
     for (int i = resultLength; i>=0; i--){
-        int sum = (num1[i]-'0')+(num2[i]-'0');
+        int sum = (num1[i]-'0')+(num2[i]-'0')+carry;
         carry=sum/10;
         result += (sum%10)+'0';
     }
-
     return 0;
 }
